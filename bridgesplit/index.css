@@ -34,6 +34,7 @@ nav a {
   padding: 0.7rem 1rem;
   border-radius: 3px;
   font-size: 0.9rem;
+  box-shadow: none;
 }
 
 .api-btn:hover {
@@ -41,10 +42,12 @@ nav a {
   cursor: pointer;
 }
 
+/* splash */
+
 .splash {
   width: 85%;
   margin: auto;
-  margin-top: 4.8rem;
+  margin-top: 4rem;
 }
 
 .splash h3 {
@@ -98,4 +101,99 @@ nav a {
 
   border-radius: 3px;
   font-size: 0.9rem;
+}
+
+.💪-container {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.💪-container div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border: 1px solid rgba(189, 195, 199);
+  padding: 1rem 2rem;
+}
+
+.💪-container div h5 {
+  font-family: "Inter Tight", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.2rem;
+}
+
+.💪-container div p {
+  font-family: "Inter Tight", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+/* ecosystem container */
+
+.ecosystem-container {
+  padding-top: 7rem;
+  width: 73%;
+  margin: auto;
+}
+
+#protocol-text {
+  font-size: 1.5rem;
+  color: rgb(135, 145, 158);
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.ecosystem-container h3 {
+  font-size: 3rem;
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+.ecosystem-container p {
+  font-size: 1.5rem;
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 100;
+  margin-bottom: 2rem;
+  line-height: 2.4rem;
+}
+
+/* grid section */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 1.5rem;
+}
+
+.grid-item {
+  border: 1px solid rgba(189, 195, 199);
+  padding: 1.2rem;
+  width: 19rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.grid-top {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.grid-item h5 {
+  font-size: 1.4rem;
+  font-family: "Inter Tight", sans-serif;
+}
+
+.grid-item p {
+  font-size: 1.25rem;
+  font-family: "Inter Tight", sans-serif;
+  line-height: 1.7rem;
 }
