@@ -170,6 +170,14 @@ nav a {
   gap: 1.5rem;
 }
 
+@media only screen and (max-width: 1200px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1.5rem;
+  }
+}
+
 .grid-item {
   border: 1px solid rgba(189, 195, 199);
   padding: 1.2rem;
@@ -196,4 +204,337 @@ nav a {
   font-size: 1.25rem;
   font-family: "Inter Tight", sans-serif;
   line-height: 1.7rem;
+}
+
+/* partners */
+
+#carrot {
+  position: absolute;
+  padding-top: 30rem;
+}
+
+.partner-container {
+  padding-top: 29rem;
+  padding-bottom: 15rem;
+  width: 64%;
+  margin: auto;
+}
+
+.partner-container h5 {
+  font-size: 1.3rem;
+  color: rgb(135, 145, 158);
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.partner-container h3 {
+  font-size: 2.7rem;
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+
+.partner-cards {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.partner-card {
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgba(189, 195, 199);
+  padding: 2.5rem 12rem;
+  background-color: rgb(242, 245, 250);
+  cursor: pointer;
+}
+
+.partner-card img {
+  height: 100px;
+  width: 100px;
+}
+
+/* supercharge section */
+
+.supercharge-holster {
+  background: linear-gradient(
+    90deg,
+    rgb(242, 245, 250) 0%,
+    rgba(242, 245, 250, 0) 43.24%
+  );
+  width: 100%;
+}
+
+.supercharge-container {
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.supercharge-left h5 {
+  font-size: 1.3rem;
+  color: rgb(135, 145, 158);
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.supercharge-left h3 {
+  font-size: 2.7rem;
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 900;
+  margin-bottom: 1.5rem;
+}
+
+.supercharge-left p {
+  font-size: 1.25rem;
+  font-family: "Inter Tight", sans-serif;
+  line-height: 1.7rem;
+  width: 30rem;
+}
+
+.supercharge-left button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Inter Tight", sans-serif;
+  padding: 0.5rem 2rem;
+  border-radius: 2px;
+  box-shadow: none;
+  border-style: none;
+  border: 1px solid black;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.video1 {
+  height: 500px;
+  width: 500px;
+}
+
+/* tradfi section */
+
+.tradfi-container {
+  padding-top: 5rem;
+  padding-bottom: 9rem;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tradfi-right h5 {
+  font-size: 1.3rem;
+  color: rgb(135, 145, 158);
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.tradfi-right h3 {
+  font-size: 2.7rem;
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 900;
+  margin-bottom: 1.5rem;
+}
+
+.tradfi-right p {
+  font-size: 1.25rem;
+  font-family: "Inter Tight", sans-serif;
+  line-height: 1.7rem;
+  width: 30rem;
+}
+
+.tradfi-right button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Inter Tight", sans-serif;
+  padding: 0.5rem 2rem;
+  border-radius: 2px;
+  box-shadow: none;
+  border-style: none;
+  border: 1px solid black;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+/* market section */
+
+.market-holster {
+  background: linear-gradient(
+    90deg,
+    rgb(242, 245, 250) 0%,
+    rgba(242, 245, 250, 0) 43.24%
+  );
+  width: 100%;
+}
+
+.market-container {
+  padding-top: 5rem;
+  padding-bottom: 9rem;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.market-right h5 {
+  font-size: 1.3rem;
+  color: rgb(135, 145, 158);
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.market-right h3 {
+  font-size: 2.7rem;
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 900;
+  margin-bottom: 1.5rem;
+}
+
+.market-right p {
+  font-size: 1.25rem;
+  font-family: "Inter Tight", sans-serif;
+  line-height: 1.7rem;
+  width: 30rem;
+}
+
+.market-right button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Inter Tight", sans-serif;
+  padding: 0.5rem 2rem;
+  border-radius: 2px;
+  box-shadow: none;
+  border-style: none;
+  border: 1px solid black;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.video3 {
+  height: 500px;
+  width: 500px;
+}
+
+/* experience section */
+
+.experience-container {
+  padding-top: 5rem;
+  padding-bottom: 9rem;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.experience-right h5 {
+  font-size: 1.3rem;
+  color: rgb(135, 145, 158);
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.experience-right h3 {
+  font-size: 2.7rem;
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 900;
+  margin-bottom: 1.5rem;
+}
+
+.experience-right p {
+  font-size: 1.25rem;
+  font-family: "Inter Tight", sans-serif;
+  line-height: 1.7rem;
+  width: 30rem;
+}
+
+.experience-right button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Inter Tight", sans-serif;
+  padding: 0.5rem 2rem;
+  border-radius: 2px;
+  box-shadow: none;
+  border-style: none;
+  border: 1px solid black;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+/* vc container */
+
+.vc-container {
+  width: 80%;
+  margin: auto;
+  /* background-color: red; */
+  padding-bottom: 10rem;
+}
+
+.vc-container h5 {
+  font-family: "Inter Tight", sans-serif;
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+.vc-container h3 {
+  font-family: "Inter Tight", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.vc-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.vc {
+  border: 1px solid rgb(135, 145, 158, 0.5);
+  width: 22rem;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#boring {
+  height: 35px;
+  width: auto;
+}
+
+.CTA-end {
+  width: 100%;
+  background-color: rgb(0, 7, 26);
+  padding: 10rem 0rem;
+  text-align: center;
+}
+
+.CTA-end h3 {
+  font-family: "Inter Tight", sans-serif;
+  color: white;
+  font-size: 2rem;
 }
