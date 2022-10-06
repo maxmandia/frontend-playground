@@ -526,15 +526,100 @@ nav a {
   width: auto;
 }
 
+/* CTA section @ bottom */
+
 .CTA-end {
   width: 100%;
   background-color: rgb(0, 7, 26);
-  padding: 10rem 0rem;
+  padding: 6rem 0rem;
   text-align: center;
 }
 
 .CTA-end h3 {
   font-family: "Inter Tight", sans-serif;
   color: white;
-  font-size: 2rem;
+  font-size: 2.5rem;
+}
+
+.CTA-end p {
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 100;
+  color: white;
+  font-size: 1rem;
+  width: 60%;
+  margin: auto;
+  margin-top: 1.5rem;
+}
+
+.CTA-end-btns {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.CTA-end-btns button {
+  box-shadow: none;
+  border-style: none;
+  background: none;
+  padding: 0.5rem 0rem;
+  width: 13rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#CTA-contact-btn {
+  color: white;
+  border: 2px solid white;
+}
+
+#CTA-key-btn {
+  color: black;
+  background-color: white;
+}
+
+/* footer */
+
+footer {
+  padding: 8rem 10rem;
+  padding-top: 4rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+#logo-large {
+  /* position: absolute; */
+}
+
+.footer-row-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 28rem;
+}
+
+.footer-row {
+  text-decoration: none;
+  list-style: none;
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 100;
+}
+
+.footer-row li {
+  text-decoration: none;
+  list-style: none;
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 100;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#row-title {
+  font-weight: 500;
+  font-size: 1.25rem;
+  font-family: "Inter Tight", sans-serif;
+  margin-bottom: 1.5rem;
+  cursor: default;
 }
