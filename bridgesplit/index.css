@@ -163,6 +163,15 @@ span {
   margin: auto;
 }
 
+.fade-in {
+  opacity: 0;
+  transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear {
+  opacity: 1;
+}
+
 #protocol-text {
   font-size: 1.5rem;
   color: rgb(135, 145, 158);
