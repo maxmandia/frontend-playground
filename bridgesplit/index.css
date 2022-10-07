@@ -170,6 +170,16 @@ span {
 
 .fade-in.appear {
   opacity: 1;
+  animation: 1s bounce;
+}
+
+@keyframes bounce {
+  from {
+    padding-top: 15 rem;
+  }
+  to {
+    padding-top: 7rem;
+  }
 }
 
 #protocol-text {
