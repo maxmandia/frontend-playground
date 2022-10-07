@@ -168,14 +168,14 @@ span {
   transition: opacity 250ms ease-in;
 }
 
-.fade-in.appear {
+.appear {
   opacity: 1;
   animation: 1s bounce;
 }
 
 @keyframes bounce {
   from {
-    padding-top: 15 rem;
+    padding-top: 20rem;
   }
   to {
     padding-top: 7rem;
@@ -263,6 +263,20 @@ span {
   margin: auto;
 }
 
+.partner-appear {
+  opacity: 1;
+  animation: 1s partner-bounce;
+}
+
+@keyframes partner-bounce {
+  from {
+    padding-top: 50rem;
+  }
+  to {
+    padding-top: 29rem;
+  }
+}
+
 .partner-container h5 {
   font-size: 1.3rem;
   color: rgb(135, 145, 158);
@@ -310,13 +324,27 @@ span {
 }
 
 .supercharge-container {
-  padding-top: 9rem;
+  padding-top: 5rem;
   padding-bottom: 9rem;
   width: 80%;
   margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.supercharge-appear {
+  opacity: 1;
+  animation: 500ms supercharge-bounce;
+}
+
+@keyframes supercharge-bounce {
+  from {
+    padding-right: 100rem;
+  }
+  to {
+    padding-right: 0rem;
+  }
 }
 
 .supercharge-left h5 {
@@ -365,13 +393,27 @@ span {
 /* tradfi section */
 
 .tradfi-container {
-  padding-top: 5rem;
+  padding-top: 9rem;
   padding-bottom: 9rem;
   width: 80%;
   margin: auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.tradfi-appear {
+  opacity: 1;
+  animation: 500ms tradfi-bounce;
+}
+
+@keyframes tradfi-bounce {
+  from {
+    padding-left: 20rem;
+  }
+  to {
+    padding-left: 0rem;
+  }
 }
 
 .tradfi-right h5 {
@@ -433,6 +475,20 @@ span {
   align-items: center;
 }
 
+.market-appear {
+  opacity: 1;
+  animation: 500ms market-bounce;
+}
+
+@keyframes market-bounce {
+  from {
+    padding-right: 20rem;
+  }
+  to {
+    padding-right: 0rem;
+  }
+}
+
 .market-right h5 {
   font-size: 1.3rem;
   color: rgb(135, 145, 158);
@@ -488,6 +544,20 @@ span {
   align-items: center;
 }
 
+.experience-appear {
+  opacity: 1;
+  animation: 500ms experience-bounce;
+}
+
+@keyframes experience-bounce {
+  from {
+    padding-left: 20rem;
+  }
+  to {
+    padding-left: 0rem;
+  }
+}
+
 .experience-right h5 {
   font-size: 1.3rem;
   color: rgb(135, 145, 158);
@@ -533,6 +603,20 @@ span {
   margin: auto;
   /* background-color: red; */
   padding-bottom: 10rem;
+}
+
+.vc-appear {
+  opacity: 1;
+  animation: 500ms vc-bounce;
+}
+
+@keyframes vc-bounce {
+  from {
+    padding-top: 20rem;
+  }
+  to {
+    padding-top: 0rem;
+  }
 }
 
 .vc-container h5 {

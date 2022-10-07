@@ -53,9 +53,28 @@ const appearOnScroll = new IntersectionObserver(function (
     if (!entry.isIntersecting) {
       return;
     } else {
-      console.log("yo");
-      entry.target.classList.add("appear");
-      appearOnScroll.unobserve(entry.target);
+      if (entry.target.className.includes("ecosystem-container")) {
+        entry.target.classList.add("appear");
+        appearOnScroll.unobserve(entry.target);
+      } else if (entry.target.className.includes("partner-container")) {
+        entry.target.classList.add("partner-appear");
+        appearOnScroll.unobserve(entry.target);
+      } else if (entry.target.className.includes("supercharge-container")) {
+        entry.target.classList.add("supercharge-appear");
+        appearOnScroll.unobserve(entry.target);
+      } else if (entry.target.className.includes("tradfi-container")) {
+        entry.target.classList.add("tradfi-appear");
+        appearOnScroll.unobserve(entry.target);
+      } else if (entry.target.className.includes("market-container")) {
+        entry.target.classList.add("market-appear");
+        appearOnScroll.unobserve(entry.target);
+      } else if (entry.target.className.includes("experience-container")) {
+        entry.target.classList.add("experience-appear");
+        appearOnScroll.unobserve(entry.target);
+      } else if (entry.target.className.includes("vc-container")) {
+        entry.target.classList.add("vc-appear");
+        appearOnScroll.unobserve(entry.target);
+      }
     }
   });
 },
