@@ -31,10 +31,25 @@ nav a {
   text-decoration: none;
 }
 
+.menu {
+  display: none;
+}
+
 @media only screen and (max-width: 500px) {
+  header {
+    margin: auto;
+    text-align: center;
+    min-width: 100%;
+    padding: 3rem;
+  }
   nav a {
-    /* color: black; */
     display: none;
+  }
+  .menu {
+    display: block;
+    color: white;
+    height: 50px;
+    width: 50px;
   }
 }
 
@@ -56,6 +71,17 @@ main {
   border-radius: 4px;
   margin-top: 1rem;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+  main {
+    width: 100%;
+    margin: auto;
+  }
+
+  #acq-btn {
+    background-color: red;
+  }
 }
 
 #acq-btn a {
