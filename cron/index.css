@@ -241,10 +241,35 @@ footer {
   font-size: 0.8rem;
 }
 
+/* .mobile-menu {
+  display: none;
+} */
+
 @media only screen and (max-width: 500px) {
   footer {
     width: 90%;
     padding-bottom: 3rem;
     padding-top: 2rem;
+  }
+
+  .mobile-menu {
+    height: 100vh;
+    width: 100vw;
+    padding-top: 1rem;
+    position: fixed;
+  }
+  .mobile-menu li {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: white;
+    font-size: 2rem;
+    margin-left: 2.25rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    font-style: none;
+    list-style: none;
+  }
+
+  body {
+    overflow: hidden;
   }
 }
