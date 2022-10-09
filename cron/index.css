@@ -35,24 +35,6 @@ nav a {
   display: none;
 }
 
-@media only screen and (max-width: 500px) {
-  header {
-    margin: auto;
-    text-align: center;
-    min-width: 100%;
-    padding: 3rem;
-  }
-  nav a {
-    display: none;
-  }
-  .menu {
-    display: block;
-    color: white;
-    height: 50px;
-    width: 50px;
-  }
-}
-
 main {
   margin: auto;
   text-align: center;
@@ -65,23 +47,10 @@ main {
   padding: 0.8rem 1.5rem;
   box-shadow: inset 0px 0px 0px 0.5px rgb(255 71 0 / 50%),
     0 0 28px rgb(255 72 0 / 20%);
-  justify-self: center;
-  align-self: center;
   font-size: 1rem;
   border-radius: 4px;
   margin-top: 1rem;
   cursor: pointer;
-}
-
-@media only screen and (max-width: 500px) {
-  main {
-    width: 100%;
-    margin: auto;
-  }
-
-  #acq-btn {
-    background-color: red;
-  }
 }
 
 #acq-btn a {
@@ -114,6 +83,40 @@ main {
   font-weight: 400;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   margin-top: 2rem;
+}
+
+@media only screen and (max-width: 500px) {
+  nav a {
+    display: none;
+  }
+  .menu {
+    display: block;
+    color: white;
+    height: 50px;
+    width: 50px;
+  }
+
+  .splash-top {
+    padding-top: 3rem;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    width: 95%;
+    margin: auto;
+  }
+
+  .splash-top h1 {
+    color: white;
+    font-size: 4.5rem;
+    line-height: 65px;
+  }
+
+  .splash-top h5 {
+    color: #ccc;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    margin-top: 2rem;
+    line-height: 25px;
+  }
 }
 
 form {
@@ -158,10 +161,39 @@ input {
   font-size: 0.9rem;
 }
 
+@media only screen and (max-width: 500px) {
+  form {
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.7rem 0rem;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  input {
+    width: 18rem;
+    text-align: left;
+  }
+
+  #access-btn {
+    padding: 1rem 6.5rem;
+  }
+}
+
 #product {
   width: 85%;
   margin-top: 6rem;
   padding-bottom: 4rem;
+}
+
+@media only screen and (max-width: 500px) {
+  #product {
+    width: 90%;
+    margin-top: 6rem;
+    padding-bottom: 2rem;
+  }
 }
 
 footer {
@@ -207,4 +239,12 @@ footer {
   font-style: none;
   color: grey;
   font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 500px) {
+  footer {
+    width: 90%;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+  }
 }
