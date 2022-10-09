@@ -35,6 +35,10 @@ nav a {
   display: none;
 }
 
+.x {
+  display: none;
+}
+
 main {
   margin: auto;
   text-align: center;
@@ -94,6 +98,13 @@ main {
     color: white;
     height: 50px;
     width: 50px;
+  }
+
+  .x {
+    color: white;
+    height: 50px;
+    width: 50px;
+    display: none;
   }
 
   .splash-top {
@@ -253,6 +264,7 @@ footer {
   }
 
   .mobile-menu {
+    display: none;
     height: 100vh;
     width: 100vw;
     padding-top: 1rem;
@@ -267,9 +279,5 @@ footer {
     text-decoration: none;
     font-style: none;
     list-style: none;
-  }
-
-  body {
-    overflow: hidden;
   }
 }
