@@ -3,9 +3,9 @@ btn.addEventListener("click", deBounce(printString, 2000));
 
 function deBounce(cb, delay) {
   let id;
-
   return () => {
     if (id) {
+      console.log(id);
       clearTimeout(id);
     }
     id = setTimeout(() => {
