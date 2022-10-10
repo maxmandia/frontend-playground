@@ -3,10 +3,6 @@
   margin: 0;
 }
 
-body {
-  /* background-color: #f9423a; */
-}
-
 header {
   text-align: center;
   background-color: #f9423a;
@@ -27,13 +23,31 @@ header {
   font-family: "Arimo", sans-serif;
   font-size: 1.2rem;
 }
-main {
-  background-color: #f9423a;
-}
 
 #logo {
   height: 85px;
   width: auto;
+}
+
+@media only screen and (min-width: 550px) {
+  header {
+    text-align: left;
+  }
+
+  #logo {
+    height: 135px;
+    width: auto;
+    margin-left: 3rem;
+  }
+
+  .header-nav {
+    padding-right: 3rem;
+    gap: 3rem;
+  }
+}
+
+main {
+  background-color: #f9423a;
 }
 
 .item {
@@ -130,6 +144,40 @@ main {
 
 #keychain-btn {
   margin-top: 3rem;
+}
+
+@media only screen and (min-width: 550px) {
+  .item-container {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    padding: 2rem;
+  }
+
+  #homer-shoot {
+    height: 1250px;
+    width: auto;
+    position: absolute;
+    right: 0;
+    top: 2rem;
+  }
+
+  .triple-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2rem;
+    padding-bottom: 5rem;
+  }
+
+  .triple-item .item {
+    padding-bottom: 5rem;
+  }
+
+  .no-options {
+    align-self: flex-end;
+    justify-content: end;
+  }
 }
 
 video {
