@@ -175,8 +175,7 @@ main {
   }
 
   .no-options {
-    align-self: flex-end;
-    justify-content: end;
+    margin-bottom: 0rem;
   }
 }
 

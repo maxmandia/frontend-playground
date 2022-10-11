@@ -1,5 +1,9 @@
-var twoSum = function (nums, target) {
-  if 
-};
+function highAndLow(numbers) {
+  // numbers.split().sort((a, z) => a - z);
+  console.log(numbers.split(""));
+  xyz.forEach((n) => console.log(typeof n));
+  // let result = xyz.sort((a, b) => b - a);
+  // console.log(result);
+}
 
-twoSum([2, 3, 6, 2], 9);
+highAndLow("1 2 3 4 5");
