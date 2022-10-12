@@ -16,16 +16,11 @@ body {
 }
 
 .cell {
-  /* background-color: grey; */
-  border: solid 1px white;
-  padding: 0.5rem;
+  height: 20px;
+  width: 20px;
   margin: 0.5rem;
 }
 
-.highlight {
-  background-color: red;
-}
-
 .snake {
-  background-color: green;
+  background-color: black;
 }
