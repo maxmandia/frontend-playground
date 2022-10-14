@@ -9,6 +9,7 @@ let startTimer;
 
 function timer() {
   if (hours.value == 0 && minutes.value == 0 && seconds.value == 0) {
+    console.log("done");
     return;
   } else if (seconds.value != 0) {
     seconds.value--;
@@ -50,12 +51,22 @@ function createBtn() {
   container.appendChild(pause);
   container.appendChild(reset);
 
-  pause.addEventListener("click", () => {
+  pause.addEventListener("click", (e) => {
     e.preventDefault();
     clearInterval(startTimer);
+    container.appendChild(startBtn);
+    container.removeChild(pause);
+    container.removeChild(reset);
   });
-}
 
-function pauseHandler() {
-  clearInterval(startTimer);
+  reset.addEventListener("click", (e) => {
+    e.preventDefault();
+    clearInterval(startTimer);
+    hours.value = null;
+    minutes.value = null;
+    seconds.value = null;
+    container.appendChild(startBtn);
+    container.removeChild(pause);
+    container.removeChild(reset);
+  });
 }
