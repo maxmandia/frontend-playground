@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  text-align: center;
+}
+
+#title {
+  margin-bottom: 5rem;
+}
+
+.container {
+  padding: 1rem;
+  border: solid black 2px;
+  margin: 1rem;
+  text-align: left;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 5rem;
+}
+
+/* do top container */
+.top-container {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 5rem;
+  margin-bottom: 2rem;
+}
+
+.dot {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.container .answer {
+  display: none;
+}
+
+.first-ans {
+  display: block;
+  font: 100px;
+}
