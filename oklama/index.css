@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 2rem 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  color: grey;
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 400;
+  font-size: 0.8125rem;
+}
+
+/* main */
+
+main {
+  height: 100vh;
+  width: 100vw;
+}
+
+#grey-folder {
+  position: absolute;
+  left: 300px;
+  top: 300px;
+}
+
+#black-folder {
+  position: absolute;
+  left: 500px;
+  top: 400px;
+}
+
+#yellow-folder {
+  position: absolute;
+  left: 800px;
+  top: 300px;
+  text-align: center;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.7rem;
+}
+
+#album-img {
+  position: absolute;
+  left: 900px;
+  top: 200px;
+}
+
+img {
+  height: 60px;
+}
