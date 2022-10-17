@@ -1,0 +1,42 @@
+main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock-outline {
+  height: 500px;
+  width: 500px;
+  border-radius: 500px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.seconds {
+  border: solid 1px red;
+  width: 0.1px;
+  height: 250px;
+  transform: rotate(0deg);
+  transform-origin: bottom;
+}
+
+.minutes {
+  border: solid 1px blue;
+  width: 0.1px;
+  height: 250px;
+  transform: rotate(0deg);
+  transform-origin: bottom;
+}
+
+.hours {
+  border: solid 1px green;
+  background-color: green;
+  width: 5px;
+  height: 250px;
+  transform: rotate(0deg);
+  transform-origin: bottom;
+}
