@@ -1,0 +1,23 @@
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chart {
+  height: 500px;
+  width: 1000px;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  display: flex;
+  /* justify-content: baseline; */
+  align-items: flex-end;
+  gap: 1px;
+}
+
+.column {
+  background-color: red;
+  /* transform: rotate(9deg); */
+}
