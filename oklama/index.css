@@ -57,3 +57,27 @@ main {
 img {
   height: 60px;
 }
+
+@media only screen and (max-width: 500px) {
+  #yellow-folder {
+    left: 200px;
+    top: 200px;
+  }
+  #grey-folder {
+    position: absolute;
+    left: 275px;
+    top: 300px;
+  }
+
+  #black-folder {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+  }
+
+  #album-img {
+    position: absolute;
+    left: 100px;
+    top: 400px;
+  }
+}
