@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 90%;
+  margin: auto;
+  padding: 5rem;
+}
+
+.scroll-one {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container-one {
+  display: flex;
+  align-items: center;
+}
+
+.container-two {
+  display: flex;
+  align-items: center;
+}
+
+.scroll-two {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+img {
+  height: 200px;
+  width: 300px;
+  border-radius: 20px;
+  margin: 0.5rem;
+  transform: translate(0px);
+}
