@@ -7,7 +7,6 @@ function fibo(n) {
   }
   console.log(fib);
 }
-// fibo(2);
 
 // factorial of a number
 function factorial(n) {
@@ -22,4 +21,29 @@ function factorial(n) {
   console.log(result);
 }
 
-factorial(10);
+//prime number
+
+function primeNumber(n) {
+  if (n < 2) {
+    return;
+  }
+  for (let i = 2; i < n; i++) {
+    if (n % i === 0) {
+      return false;
+    }
+  }
+  return true;
+}
+
+function powerOfTwo(n) {
+  if (n < 1) {
+    return false;
+  }
+  while (n > 1) {
+    if (n % 2 !== 0) {
+      return false;
+    }
+    n = n / 2;
+  }
+  return true;
+}
